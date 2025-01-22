@@ -19,6 +19,6 @@ int main(){
     printf("Digite um número: ");
     scanf("%d",&n);
     quadrado = quadrado_por_soma(n);
-    printf("O quadrado de %d é %d",n,quadrado);
+    printf("O quadrado de %d é %d\n",n,quadrado);
     return 0;
 }
