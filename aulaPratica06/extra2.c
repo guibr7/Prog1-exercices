@@ -6,7 +6,7 @@ int main(){
     menor = 0;
     maior = 0;
     soma = 0;
-    while(c <= 5){
+    while(c <= 15){
         printf("Digite o consumo da %d residência: ",c);
         scanf("%f",&consumo);
         if(menor == 0){
@@ -20,9 +20,9 @@ int main(){
         };
         c++;
     }
-    media = soma/5;
-    printf("Consumo médio: %.2f Kvh\n",media);
-    printf("Maior consumo: %.2f Kvh\n",maior);
-    printf("Menor consumo: %.2f Kvh\n",menor);
+    media = soma/15;
+    printf("Consumo médio: %.2f Kwh\n",media);
+    printf("Maior consumo: %.2f Kwm\n",maior);
+    printf("Menor consumo: %.2f Kwm\n",menor);
     return 0;
 }
