@@ -1,3 +1,4 @@
+//Guilherme Henrique Silva Miranda 24.2.4090
 #include <stdio.h>
 int main(){
     float n1,resultado;
@@ -13,7 +14,6 @@ int main(){
         if(n1 != 0){
             soma+=n1;
         }
-
         if(n1 == 0 && i != 0){
             resultado  = (1.0/i)*soma;
             printf("MA = %.2f\n",resultado);
