@@ -1,3 +1,4 @@
+//Guilherme Henrique Silva Miranda 24.2.4090
 #include <stdio.h>
 #include<stdio_ext.h>
 #define MAX 10
